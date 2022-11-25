@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(#d82fac, #fff); */
+    z-index: 999;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+}
+
+.navbar{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo span{
+    padding: 5px;
+    font-size: 26px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin: 0 15px;
+    list-style: none;
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color .3s ease-in-out;
+}
+
+.menu li a:hover{
+    color: green;
+}
+
+.hero{
+    background-image: url("bg.jpeg");
+    background-size: cover;
+}
+
+.hero .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .content .left img{
+    width: 55%;
+    height: 40%;
+    margin-top: 45px;
+}
+
+.hero .content .right h1{
+    color: #222;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 1px;
+}
+
+.hero .content .right button{
+    margin-top: 30px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.hero .content .right button:hover{
+    scale : 1.1;
+}
+
+.why{
+    /* background-color: #555; */
+    padding: 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line div{
+    text-align: center;
+    padding: 5px;
+}
+
+.line div img{
+    margin-bottom: 10px;
+}
+
+.line div h1{
+    margin-bottom: 10px;
+}
+
+.free{
+    background: linear-gradient(#d82fac, #5708ed);
+    padding: 100px;
+    text-align: center;
+}
+
+.free p{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.ready{
+    text-align: center;
+    padding: 180px;
+    background: url("bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ready p{
+    font-size: 80px;    
+    font-weight: 800;
+}
+
+.ready button{
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #999;
+    cursor: pointer;
+    transition: all .3s ease-in-out;   
+}
+
+.ready button:hover{
+    scale : 1.1;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+footer div img{
+    width: 50px;
+    height: 50px;
+}
+
+footer div span{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.ft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    font-size: 22px;
+    padding: 10px;
+}
